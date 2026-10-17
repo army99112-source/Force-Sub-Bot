@@ -23,7 +23,7 @@ func init() {
 	_ = godotenv.Load()
 
 	DatabaseURI = os.Getenv("DB_URI")
-	Token = os.Getenv("TOKEN")
+	Token = os.Getenv("8653203719:AAFXFxCaFYJuRyJ9sBaDtJ3dc7XSs7zBUos
 	OwnerId = toInt64(os.Getenv("OWNER_ID"))
 	LoggerId = toInt64(os.Getenv("LOGGER_ID"))
 
